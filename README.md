@@ -1,2 +1,2 @@
 # rebels
-Rebels For Hire
+Rebels For Hire is a 2.5D, side scrolling multiplayer online battle arena that assigns players to teams and pits teams against one another in a variety of game modes as players fight, build, collect money, buy items, and swing across a variety of environments with their trusty grappling hooks to complete the objective. The game is designed to be simple and approachable for new players, while withholding complexities that are not quite obvious at the start for dedicated players to discover; sure, you can grab players with your grappling hook… but have you tried grabbing items off the ground? What about grabbing projectiles out of the air?! Easy to learn, hard to master!
