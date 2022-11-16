@@ -114,6 +114,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"parents","folderPath":"folders/Objects/environment/parents.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"hitbox","folderPath":"folders/Objects/hitbox.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Objects/player.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shop","folderPath":"folders/Objects/shop.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"boxes","folderPath":"folders/Scripts/boxes.yy","order":5,},
@@ -134,7 +135,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ui","folderPath":"folders/Sprites/ui.yy","order":23,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":4,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shop","folderPath":"folders/Objects/shop.yy","order":5,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
