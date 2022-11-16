@@ -1,0 +1,20 @@
+Converting GML script: ${project_dir}\objects\obj_controller\KeyPress_17.gml
+Converted description /// @description global.isShaderEnabled = false;
+
+Converting GML script: ${project_dir}\objects\obj_controller\KeyPress_8.gml
+Converted description /// @description game_end();
+
+Converting GML script: ${project_dir}\objects\obj_controller\KeyRelease_32.gml
+Converted description /// @description next shader example...
+
+Converting GML script: ${project_dir}\objects\obj_controller\KeyRelease_27.gml
+Converted description /// @description game_end();
+
+Converting GML script: ${project_dir}\objects\obj_controller\KeyRelease_17.gml
+Converted description /// @description global.isShaderEnabled = true;
+
+Added compatibility script 'background/background_get_texture.gml'
+Added compatibility script 'background/draw_background_tiled_ext.gml'
+Added compatibility script 'texture/texture_set_repeat_ext.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script '__init_global.gml'

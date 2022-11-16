@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "PostFx_Bundle_1",
+    "path": "extensions/PostFx_Bundle_1/PostFx_Bundle_1.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
