@@ -8,3 +8,13 @@ global.deltaMultiplier = global.actualDelta / global.targetDelta
 
 
 depth = -999999
+
+enum characters
+{
+	kami,
+	dublin,
+	godric,
+	angus
+}
+
+display_set_gui_size(2880,1620)

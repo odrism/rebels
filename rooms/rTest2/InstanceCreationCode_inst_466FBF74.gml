@@ -1,0 +1,1 @@
+myCategory = categories.materials

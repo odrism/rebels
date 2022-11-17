@@ -87,16 +87,16 @@ hsp -= hspFraction;
 vsp -= vspFraction;
 
 //horizontal
-if (place_meeting(x+hsp * global.deltaMultiplier,y,oParSolid))
+if (place_meeting(x+hsp,y,oParSolid))
 {
 	var _hStep = sign(hsp);
 	var yplus = 0;
-	while (place_meeting(x+hsp * global.deltaMultiplier,y-yplus,oParSolid) and yplus <= abs(0.8*hsp)) yplus ++;
-	if place_meeting(x+hsp * global.deltaMultiplier,y-yplus,oParSolid)
+	while (place_meeting(x+hsp,y-yplus,oParSolid) and yplus <= abs(0.8*hsp)) yplus ++;
+	if place_meeting(x+hsp,y-yplus,oParSolid)
 	{
 		hsp = 0;
 		hspFraction = 0;
-		while(!place_meeting(x+_hStep,y,oParSolid)) x += _hStep * global.deltaMultiplier;	
+		while(!place_meeting(x+_hStep,y,oParSolid)) x += _hStep;	
 		if (state ==states.GRAPPLING)
 		{
 			ropeAngle = point_direction(grappleX,grappleY,x,y);
@@ -111,16 +111,16 @@ if (place_meeting(x+hsp * global.deltaMultiplier,y,oParSolid))
 	}
 }
 
-x += hsp * global.deltaMultiplier;
+x += hsp;
 
 
 if (state != states.GRAPPLING)
 {
-	if !place_meeting(x,y,oParSolid) && vsp >= 0 && place_meeting(x,y+0.8+abs(hsp) * global.deltaMultiplier,oParSolid)
-	{while(!place_meeting(x,y+1 * global.deltaMultiplier,oParSolid)) {y += 1;}}
+	if !place_meeting(x,y,oParSolid) && vsp >= 0 && place_meeting(x,y+0.8+abs(hsp),oParSolid)
+	{while(!place_meeting(x,y+1,oParSolid)) {y += 1;}}
 }
 //vertical
-if (place_meeting(x,y+vsp * global.deltaMultiplier,oParSolid))
+if (place_meeting(x,y+vsp,oParSolid))
 {
 	var _vStep = sign(vsp);
 	vsp = 0;
@@ -134,7 +134,7 @@ if (place_meeting(x,y+vsp * global.deltaMultiplier,oParSolid))
 }
 
 //jump thru
-var jumpThru = (instance_place( x, y+vsp * global.deltaMultiplier, oParentJumpThru ))
+var jumpThru = (instance_place( x, y+vsp, oParentJumpThru ))
 
 if (jumpThru != noone) and !(state == states.GRAPPLING)
 {
@@ -144,7 +144,7 @@ if (jumpThru != noone) and !(state == states.GRAPPLING)
 		vsp = 0;
 		vspFraction = 0;
 		grounded = true
-		while(!place_meeting(x,y+_vStep,jumpThru)) y += _vStep * global.deltaMultiplier;	
+		while(!place_meeting(x,y+_vStep,jumpThru)) y += _vStep;	
 		if (state == states.GRAPPLING)
 		{
 			ropeAngle = point_direction(grappleX,grappleY,x,y);
@@ -154,5 +154,5 @@ if (jumpThru != noone) and !(state == states.GRAPPLING)
 	}
 }
 
-y += vsp * global.deltaMultiplier;
+y += vsp;
 #endregion

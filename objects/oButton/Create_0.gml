@@ -7,3 +7,6 @@ hh = sprite_get_height(sprite_index)
 box = point_in_rectangle(mouse_x,mouse_y,xx,yy,xx+ww,yy+hh)
 
 active = false;
+
+squareIndex = irandom_range(0,4);
+myCategory = 0;

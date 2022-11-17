@@ -7,6 +7,7 @@ device = -1
 gamepad_set_axis_deadzone(4,DEADZONE);
 tapJump = false;
 player_controls();
+character = characters.kami;
 
 inventory = instance_create_depth(x,y,-100,oInventory);
 with inventory { owner = other.id; }
