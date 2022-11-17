@@ -91,7 +91,7 @@ if (place_meeting(x+hsp * global.deltaMultiplier,y,oParSolid))
 {
 	var _hStep = sign(hsp);
 	var yplus = 0;
-	while (place_meeting(x+hsp * global.deltaMultiplier,y-yplus,oParSolid) and yplus <= abs(1*hsp)) yplus ++;
+	while (place_meeting(x+hsp * global.deltaMultiplier,y-yplus,oParSolid) and yplus <= abs(0.8*hsp)) yplus ++;
 	if place_meeting(x+hsp * global.deltaMultiplier,y-yplus,oParSolid)
 	{
 		hsp = 0;
@@ -116,7 +116,7 @@ x += hsp * global.deltaMultiplier;
 
 if (state != states.GRAPPLING)
 {
-	if !place_meeting(x,y,oParSolid) && vsp >= 0 && place_meeting(x,y+1+abs(hsp) * global.deltaMultiplier,oParSolid)
+	if !place_meeting(x,y,oParSolid) && vsp >= 0 && place_meeting(x,y+0.8+abs(hsp) * global.deltaMultiplier,oParSolid)
 	{while(!place_meeting(x,y+1 * global.deltaMultiplier,oParSolid)) {y += 1;}}
 }
 //vertical
