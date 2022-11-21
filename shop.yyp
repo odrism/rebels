@@ -59,6 +59,7 @@
     {"id":{"name":"drop_item","path":"scripts/drop_item/drop_item.yy",},"order":2,},
     {"id":{"name":"oShop","path":"objects/oShop/oShop.yy",},"order":2,},
     {"id":{"name":"oCanBeGrappledTo","path":"objects/oCanBeGrappledTo/oCanBeGrappledTo.yy",},"order":2,},
+    {"id":{"name":"deactivate_shop_layers","path":"scripts/deactivate_shop_layers/deactivate_shop_layers.yy",},"order":10,},
     {"id":{"name":"scrGrappling","path":"scripts/scrGrappling/scrGrappling.yy",},"order":4,},
     {"id":{"name":"__init_background","path":"scripts/__init_background/__init_background.yy",},"order":0,},
     {"id":{"name":"scrWallSlide","path":"scripts/scrWallSlide/scrWallSlide.yy",},"order":5,},

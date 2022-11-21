@@ -20,6 +20,14 @@ function MACROS(){
 		DASH
 	}
 	
+	enum characters
+	{
+		kami,
+		dublin,
+		godric,
+		angus
+	}
+	
 	#macro BUFFER 5
 	#macro DEADZONE 0.4
 }

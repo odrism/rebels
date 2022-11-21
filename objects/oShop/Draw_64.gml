@@ -8,3 +8,4 @@ if (oPlayer.state == states.SHOPPING)
 	draw_set_halign(fa_left);
 }
 
+	draw_text(display_get_gui_width()/2,32,category);

@@ -1,3 +1,5 @@
+//this determines if the mouse is over any category button.
+//have to do it like this because buttons are drawn on gui
 var test = false
 for (var i = 0; i < instance_number(oButton); i++;)
 {
@@ -9,6 +11,7 @@ for (var i = 0; i < instance_number(oButton); i++;)
 
 touchingButton = test;
 
+//if you're not touching a category button, the text should show the selected category
 if !(touchingButton)
 {
 	switch (category)
@@ -50,4 +53,72 @@ if !(touchingButton)
 			categoryStr = "UTILITY"
 		break;
 	}	
+}
+
+//toggle layers depending on category variable
+switch (category)
+{
+	case categories.throwing:
+		deactivate_shop_layers();
+		instance_activate_layer("Throwing")
+	break;
+	
+	case categories.explosive:
+		deactivate_shop_layers();
+		instance_activate_layer("Explosive")
+	break;
+	
+	case categories.boon:
+		deactivate_shop_layers();
+		instance_activate_layer("Boon")
+	break;
+	
+	case categories.utility:
+		deactivate_shop_layers();
+		instance_activate_layer("Utility")
+	break;
+	
+	case categories.environmental:
+		deactivate_shop_layers();
+		instance_activate_layer("Environmental")
+	break;
+	
+	case categories.defense:
+		deactivate_shop_layers();
+		instance_activate_layer("Defense")
+	break;
+	
+	case categories.materials:
+		deactivate_shop_layers();
+		instance_activate_layer("Materials")
+	break;
+	
+	case categories.farming:
+		deactivate_shop_layers();
+		instance_activate_layer("Farming")
+	break;
+	
+	case categories.kami:
+		deactivate_shop_layers();
+		instance_activate_layer("Kami")
+	break;
+	
+	case categories.dublin:
+		deactivate_shop_layers();
+		instance_activate_layer("Dublin")
+	break;
+	
+	case categories.godric:
+		deactivate_shop_layers();
+		instance_activate_layer("Godric")
+	break;
+	
+	case categories.angus:
+		deactivate_shop_layers();
+		instance_activate_layer("Angus")
+	break;
+
+	default:
+		deactivate_shop_layers();
+	break;
 }

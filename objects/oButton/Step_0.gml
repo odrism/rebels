@@ -10,6 +10,7 @@ box = point_in_rectangle(mouseGuiX,mouseGuiY,xx,yy,xx+ww,yy+hh)
 if box and active
 {
 	image_index = 1
+	//if you're hovering over a category button, switch the shown text to that category for easy identification
 	if (oShop.touchingButton)
 	{
 		switch (myCategory)
@@ -61,4 +62,13 @@ else
 if box and mouse_check_button_released(mb_left) and active
 {
 	oShop.category = myCategory;	
+}
+
+if (oShop.category == categories.kami)
+{
+	instance_activate_layer("Kami");	
+}
+else
+{
+	instance_deactivate_layer("Kami");	
 }
