@@ -33,8 +33,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_466FBF74","properties":[],"isDnd":false,"objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1620.0,"y":240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4000221D","properties":[],"isDnd":false,"objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1740.0,"y":240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36924A57","properties":[],"isDnd":false,"objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1860.0,"y":240.0,},
-      ],"visible":true,"depth":-1200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":60,"gridY":120,"layers":[
-        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Throwing","instances":[],"visible":true,"depth":-1100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+      ],"visible":true,"depth":-1200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
+        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Throwing","instances":[
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76DB308E","properties":[],"isDnd":false,"objectId":{"name":"oItemButton","path":"objects/oItemButton/oItemButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.6666667,"scaleY":2.8666666,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":480.0,},
+          ],"visible":true,"depth":-1100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Explosive","instances":[],"visible":true,"depth":-1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Boon","instances":[],"visible":true,"depth":-900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Utility","instances":[],"visible":true,"depth":-800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -144,6 +146,7 @@
     {"name":"inst_3B6AF21D","path":"rooms/rTest2/rTest2.yy",},
     {"name":"inst_588C992","path":"rooms/rTest2/rTest2.yy",},
     {"name":"inst_36924A57","path":"rooms/rTest2/rTest2.yy",},
+    {"name":"inst_76DB308E","path":"rooms/rTest2/rTest2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

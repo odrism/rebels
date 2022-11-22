@@ -14,44 +14,44 @@ if box and active
 	if (oShop.touchingButton)
 	{
 		switch (myCategory)
-	{
-		case categories.throwing:
-			oShop.categoryStr = "THROWING"
-		break;
-		case categories.angus:
-			oShop.categoryStr = "ANGUS"
-		break;
-		case categories.boon:
-			oShop.categoryStr = "BOON"
-		break;
-		case categories.defense:
-			oShop.categoryStr = "DEFENSE"
-		break;
-		case categories.dublin:
-			oShop.categoryStr = "DUBLIN"
-		break;
-		case categories.environmental:
-			oShop.categoryStr = "ENVIRONMENTAL"
-		break;
-		case categories.explosive:
-			oShop.categoryStr = "EXPLOSIVE"
-		break;
-		case categories.farming:
-			oShop.categoryStr = "FARMING"
-		break;
-		case categories.godric:
-			oShop.categoryStr = "GODRIC"
-		break;
-		case categories.kami:
-			oShop.categoryStr = "KAMI"
-		break;
-		case categories.materials:
-			oShop.categoryStr = "MATERIALS"
-		break;
-		case categories.utility:
-			oShop.categoryStr = "UTILITY"
-		break;
-	}
+		{
+			case categories.throwing:
+				oShop.categoryStr = "THROWING"
+			break;
+			case categories.angus:
+				oShop.categoryStr = "ANGUS"
+			break;
+			case categories.boon:
+				oShop.categoryStr = "BOON"
+			break;
+			case categories.defense:
+				oShop.categoryStr = "DEFENSE"
+			break;
+			case categories.dublin:
+				oShop.categoryStr = "DUBLIN"
+			break;
+			case categories.environmental:
+				oShop.categoryStr = "ENVIRONMENTAL"
+			break;
+			case categories.explosive:
+				oShop.categoryStr = "EXPLOSIVE"
+			break;
+			case categories.farming:
+				oShop.categoryStr = "FARMING"
+			break;
+			case categories.godric:
+				oShop.categoryStr = "GODRIC"
+			break;
+			case categories.kami:
+				oShop.categoryStr = "KAMI"
+			break;
+			case categories.materials:
+				oShop.categoryStr = "MATERIALS"
+			break;
+			case categories.utility:
+				oShop.categoryStr = "UTILITY"
+			break;
+		}
 	}
 }
 else
