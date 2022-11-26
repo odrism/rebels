@@ -40,6 +40,9 @@ function scrIdle(){
 	//enter shop state
 	execute_shop();
 	
+	//enter build state
+	execute_building();
+	
 	pickup_item()
 	drop_item()
 }

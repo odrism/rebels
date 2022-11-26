@@ -54,5 +54,5 @@ else
 	draw_sprite_ext(sprite_index,image_index,x,y,facing,1,0,c_white,1);	
 }
 
-draw_text(x+32,y,hsp)
+draw_text(x+32,y,currentSquare)
 draw_text(x+32,y+32,vsp)

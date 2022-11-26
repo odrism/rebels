@@ -66,6 +66,18 @@ ropeAngle = 0;
 ropeLength = 0;
 grapMaxLength = 640;
 
+//building vars
+r = -1;
+c = -1;
+enum types
+{
+	PLAT,
+	WALL,
+	SLOPE
+}
+type = types.WALL;
+currentSquare = -1; //the current square the player is standing on
+
 //hitbox vars
 hurtbox = hurtbox_create(1,1,0,0);
 with (hurtbox) { sprite_index = sPlayerHitbox; }

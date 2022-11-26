@@ -8,6 +8,7 @@ grounded = check_below();
 get_angle()
 navigate_inv();
 get_item_sprite();
+currentSquare = instance_position(mouse_x,mouse_y,oSquare)
 
 if (jumpBuffer < BUFFER) { jumpBuffer --; }
 if (jumpBuffer < 0) { jumpBuffer = BUFFER }
@@ -74,6 +75,10 @@ switch (state)
 	
 	case states.SHOPPING:
 		scrShopping();
+	break;
+	
+	case states.BUILDING:
+		scrBuilding();
 	break;
 }
 #endregion
